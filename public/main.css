@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
+  
+* {
+  font-family: 'Sahitya', serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-gold: #F1955B;
+  --main-color: #377D3F;
+  --main-background: #eddfca;
+}
+
+a, a:visited {
+  color: var(--main-gold);
+}
+
+section {
+  margin: 20px;
+}
+
+h1.title {
+  margin: 20px;
+}
+
+body {
+  background: #f8f2e9;
+  margin: 0 auto;
+  width: 800px;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+}
+
+/** Header **/
+header {
+  margin: 0 auto;
+  margin-top: 1em;
+  background: url(cha-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 250px;
+  width: 190px;
+}
+
+header a, header a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+header h1 {
+  margin-left: 25px;
+}
+
+header h2 {
+  color: #333;
+  font-size: 1em;
+  font-style: italic;
+  margin-left: 25px;
+}
+
+/** Vision **/
+#vision {
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/** Callout Section **/
+.callout {
+  background: var(--main-background);
+  border: solid var(--main-color);
+  border-width: .3em .2em;
+  border-radius: 10px 70px / 70px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2);
+  padding: 5px 1em;
+}
+
+.callout ul {
+  margin-left: 1.5em;
+}
+
+/** Text Section **/
+section.text p {
+  margin: 10px 5px;
+}
+
+.text h1 {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small {
+  font-size: .8em;
+}
+
+/** Footer **/
+footer {
+  color: #aaa;
+  font-size: .7em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer a, footer:visited {
+  color: #77aaff;
+}
